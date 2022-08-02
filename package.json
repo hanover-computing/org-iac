@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "lint": "prettier --check . --ignore-path .gitignore",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@janejeon/prettier-config": "^1.1.1",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "skip-ci": "^1.0.4"
+  }
+}
